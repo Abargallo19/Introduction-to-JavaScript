@@ -20,8 +20,13 @@ Do the following:
    HINT: no function required
 */
 
-console.log('Hello Allesandria');
-
+let votingAge = 17;
+if(votingAge >= 18){
+  console.log('Too legit to quit')
+} else {
+  console.log('Not quite legit')
+}
+console.log(votingAge)
 /*
 Task 1b - Values (not auto tested)
 
