@@ -26,7 +26,7 @@ if(votingAge >= 18){
 } else {
   console.log('Not quite legit')
 }
-console.log(votingAge)
+console.log(votingAge);
 /*
 Task 1b - Values (not auto tested)
 
@@ -66,8 +66,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
 
 
@@ -82,9 +82,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(a){
+  return a * 7;
 }
+
 
 
 
